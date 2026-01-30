@@ -13,8 +13,9 @@
     <!--Start of the body of the page-->
     <body>
 
+        
         <!--Nav bar with bootstrap-->
-        <nav class="navbar navbar-expand-lg navbar-dark">
+        <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
             <div class="container">
                 <a class="navbar-brand" href="index.html">Jujutsu Kaisen Gallery</a>
                     <div class="navbar-nav">
@@ -25,6 +26,86 @@
                     </div>
             </div>
         </nav>
+
+        <main class="container">
+            <h1>Character Gallery</h1>
+            <p>5 Jujutsu Kaisen Characters</p>
+            <!-- bootstrap grid system implementation-->
+                <div class="row g-4">
+
+                    <div class="col-md-4 col-lg-3 character-card" data-name="gojo" data-role="teacher sorcerer">
+                        <div class="card h-100">
+                            <img src="assets/images/gojoAssignment2.webp" class="card-img-top" alt="Gojo">
+                            <div class="card-body">
+                                <h5 class="card-title">Satoru Gojo</h5>
+                                <p class="card-text">
+                                    Role: Teacher<br>
+                                    Techniques: Limitless, Six Eyes<br>
+                                    Rank: Special Grade<br>
+                                </p>
+                                <a href="details.html" class="btn btn-primary">Character Details</a>
+                            </div>
+                        </div>
+                    </div>   
+                    <div class="col-md-4 col-lg-3 character-card" data-name="yuji" data-role="student vessel">
+                        <div class="card h-100">
+                            <img src="assets/images/yujiitadoriAssignment2.jpg" class="card-img-top" alt="Yuji Itadori">
+                            <div class="card-body">
+                                <h5 class="card-title">Yuji Itadori</h5>
+                                <p class="card-text">
+                                    Role: Student<br>
+                                    Techniques: Natural Strength<br>
+                                    Rank: Sukuna's Vessel<br>
+                                </p>
+                                <a href="details.html" class="btn btn-primary">Character Details</a>
+                            </div>
+                        </div>
+                    </div>  
+                    <div class="col-md-4 col-lg-3 character-card" data-name="megumi" data-role="student shikigami">
+                        <div class="card h-100">
+                            <img src="assets/images/megumiAssignment2.jpg" class="card-img-top" alt="Megumi Fushiguro">
+                            <div class="card-body">
+                                <h5 class="card-title">Megumi Fushiguro</h5>
+                                <p class="card-text">
+                                    Role: Student<br>
+                                    Techniques: Ten Shadows<br>
+                                    Specialty: Shikigami<br>
+                                </p>
+                                <a href="details.html" class="btn btn-primary">Character Details</a>
+                            </div>
+                        </div>
+                    </div>  
+                    <div class="col-md-4 col-lg-3 character-card" data-name="toji" data-role="assassin anti-sorcerer">
+                        <div class="card h-100">
+                            <img src="assets/images/tojiAssignment2.jpg" class="card-img-top" alt="Toji Fushiguro">
+                            <div class="card-body">
+                                <h5 class="card-title">Toji Fushiguro</h5>
+                                <p class="card-text">
+                                    Role: Assassin<br>
+                                    Techniques: Heavenly Pact<br>
+                                    Specialty: Anti-Sorcerer<br>
+                                </p>
+                                <a href="details.html" class="btn btn-primary">Character Details</a>
+                            </div>
+                        </div>
+                    </div>  
+                    <div class="col-md-4 col-lg-3 character-card" data-name="sukuna" data-role="curse king villain">
+                        <div class="card h-100">
+                            <img src="assets/images/sukunaAssignment2.jpg" class="card-img-top" alt="sukuna">
+                            <div class="card-body">
+                                <h5 class="card-title">Ryomen Sukuna</h5>
+                                <p class="card-text">
+                                    Role: Curse<br>
+                                    Techniques: King of Curses<br>
+                                    Host:Yuji Itadori<br>
+                                </p>
+                                <a href="details.html" class="btn btn-primary">Character Details</a>
+                            </div>
+                        </div>
+                    </div>     
+                </div>
+            
+        </main>
 
     </body>
 
